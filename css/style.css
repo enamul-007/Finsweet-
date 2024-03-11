@@ -153,3 +153,107 @@ body{
     width: 303px;
 }
 /* --------work_part end--------- */
+
+/* --------project_part start--------- */
+
+#projectPart{
+    padding: 128px 0 128px;
+}
+
+.view__title{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.view__option{
+    font-weight: 500;
+    color: var(--black__color);
+    font-size: 16px;
+}
+
+.project_rightTop{
+    margin-top: -4%;
+}
+
+.project_rightBottom{
+    margin-top: 10%;
+}
+
+.project_left{
+    overflow: hidden;
+}
+
+.project_left:hover .overly{
+    left: 0;
+}
+
+.overly{
+    max-width: 396px;
+    height: 100%;
+    background: #1c1e53b3;
+    top: 0;
+    left: -47%;
+    transition: all linear .4s;
+}
+
+.overly_title{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white__color);
+}
+
+.overly_summry{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white__color);
+    opacity: .7;
+}
+
+.overly_contant{
+    height: 100%;
+    justify-content: flex-end;
+    padding: 0 10px 100px 48px;
+}
+
+.view_more{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--yellow__color);
+}
+
+.overly--tow{
+    max-width: 100%;
+    width: 100%;
+    top: -100%;
+}
+
+.overly--contant{
+    padding: 0 10px 45px 48px;
+}
+.project_rightTop{
+    overflow: hidden;
+}
+.project_rightTop:hover .overly--tow{
+    top: 0;
+}
+
+.overly_Title{
+    color: var(--white__color);
+    width: 313px;
+}
+
+.overly--three{
+    max-width: 100%;
+    width: 100%;
+    left: -100%;
+}
+
+.project_rightBottom{
+    overflow: hidden;
+}
+.project_rightBottom:hover .overly--three {
+    left: 0;
+}
+
+/* --------project_part end--------- */
+
