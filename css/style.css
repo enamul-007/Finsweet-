@@ -40,6 +40,9 @@ img {
     --yellow__color: #FCD980;
 
 }
+body{
+    font-family: var(--popins);
+}
 
 /* -------------common css------------ */
 
@@ -71,3 +74,47 @@ img {
 
 
 /* -------------nav end------------ */
+
+/* ------banner part start----- */
+
+#bannerPart{
+    background: var(--blue__color);
+    padding: 184px 0 192px;
+}
+
+.banner_title{
+    color: var(--white__color);
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.banner_summry{
+    color: var(--white__color);
+    font-size: 16px;
+    font-weight: 500;
+    opacity: .7;
+}
+
+.view_work{
+    padding: 12px 46px;
+    background: transparent;
+    border-radius: 41px;
+    border: solid var(--white__color)1px;
+    color: var(--white__color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.view_work:hover{
+    background: var(--yellow__color);
+    transition: all linear.4S;
+}
+
+.view_pricing{
+    color: var(--white__color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* ------banner part end----- */
