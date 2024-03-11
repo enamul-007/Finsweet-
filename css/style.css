@@ -118,3 +118,38 @@ body{
 
 
 /* ------banner part end----- */
+
+/* --------work_part start--------- */
+#workPart{
+    padding: 128px 0 128px;
+}
+
+.Heading_title{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--black__color);
+    padding: 16px 0;
+}
+
+.Heading_summry{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    width: 405px;
+}
+
+.card_title{
+    
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--black__color);
+    padding: 16px 0 0;
+}
+
+.card_summry{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    width: 303px;
+}
+/* --------work_part end--------- */
