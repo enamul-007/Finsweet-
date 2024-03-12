@@ -53,6 +53,7 @@ h6,
 span,
 p{
     padding: 0;
+    
 }
 
 /* -------------common css------------ */
@@ -354,4 +355,64 @@ p{
 }
 
 /* ---------Testimonials_part end---------- */
+
+
+/* ---------FAQ_part start---------- */
+
+#FAQ_part{
+    padding: 128px 0;
+}
+
+.faqLeft_taitle{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.faqLeft_summry{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--blue__color);
+    margin-top: 16px ;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item {
+    border:none;
+}
+
+.accordion-button::after {
+    content: "+";
+    background-image:none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "-";
+    background: transparent;
+    transform: rotate(0deg) ;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background: transparent;
+}
+
+.Question_title{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.Question__summry{
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 624px;
+}
+
+/* ---------FAQ_part end---------- */
 
