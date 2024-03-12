@@ -44,6 +44,17 @@ body{
     font-family: var(--popins);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p{
+    padding: 0;
+}
+
 /* -------------common css------------ */
 
 /* -------------nav start------------ */
@@ -306,4 +317,41 @@ body{
 
 
 /* -----------Features_part end---------- */
+
+/* ---------Testimonials_part start---------- */
+
+#TestimonialsPart{
+    background: #f4f6fca1;
+    padding: 128px 0 128px;
+}
+
+.TestimonialsRight_title{
+    font-size: 38px;
+    font-weight: 600;
+    width: 327px;
+}
+
+.TestimonialsRight_summry{
+    font-size: 16px;
+    font-weight: 400;
+    width: 327px;
+    padding-top: 16px;
+}
+
+.Testimonialsleft_title{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.profileItem_title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.profileItem_summry{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* ---------Testimonials_part end---------- */
 
