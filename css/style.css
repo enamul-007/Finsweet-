@@ -28,7 +28,7 @@ img {
 }
 
 .container {
-    max-width: 1320;
+    max-width: 1320px;
     margin: 0 auto;
 }
 
@@ -256,4 +256,54 @@ body{
 }
 
 /* --------project_part end--------- */
+
+/* -----------Features_part start---------- */
+
+#Features_part{
+    background: #F4F6FC;
+    padding: 128px 0 128px;
+}
+
+.FeatureHeader_summry{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.FeatureHeader_title{
+    font-size: 48px;
+    font-weight: 600;
+    width: 630px;
+}
+
+
+
+.card_item{
+    padding: 58px 32px 48px 48px;
+    background: var(--white__color);
+    transition: all linear .4s;
+    border: 1.5px solid transparent;
+
+}
+
+.card_item:hover{
+    border-color: var(--black__color);
+    opacity: .7;
+    border-radius: 5px;
+
+}
+
+.card_item_title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+
+.card_item_summry{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* -----------Features_part end---------- */
 
