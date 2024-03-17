@@ -552,3 +552,46 @@ p{
 
 /* ---------Blog_part end---------- */
 
+
+/* ---------Footerpart start---------- */
+
+#FooterPart{
+    background: var(--blue__color);
+    padding-top: 100px;
+}
+
+
+
+.FooterPart_summry{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white__color);
+    padding: 22px 0 86px;
+}
+
+.ContactInfo{
+    background: var(--yellow__color);
+    display: flex;
+    padding: 18px 0 16px 35px;
+}
+
+.email_item{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.FooterPartLeft_summry{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white__color);
+    padding-top: 16px;
+}
+
+.footer_icon{
+    font-size: 35px;
+    color: var(--white__color);
+    padding-top: 30px;
+}
+
+/* ---------Footerpart end---------- */
+
