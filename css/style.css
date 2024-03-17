@@ -514,3 +514,41 @@ p{
 
 /* ---------Contact_part end---------- */
 
+
+/* ---------Blog_part start---------- */
+#blogPart{
+    padding-bottom: 128px;
+}
+
+.BlogTitle{
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 64px;
+}
+
+.BlogFirstCard_date{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.BlogFirstCard_title{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 16px;
+    color: #282938;
+}
+
+.BlogFirstCard_summry{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+}
+
+.ReadMore{
+    color: #282938;
+}
+
+/* ---------Blog_part end---------- */
+
